@@ -4,8 +4,8 @@ package pbo;
 public class BukuDetail extends Buku {
 
     //Overriding
-    public BukuDetail(String nama, String npm, String kode) {
-        super(nama, npm, kode);
+    public BukuDetail(String judul, String penulis, String kode) {
+        super(judul, penulis, kode);
     }
 
     public int getTahunTerbit() {
